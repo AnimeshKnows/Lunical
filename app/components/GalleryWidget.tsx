@@ -7,10 +7,10 @@ import { motion } from "framer-motion";
 export default function GalleryWidget() {
   // Initial gallery images
   const [images, setImages] = useState<string[]>([
-    "/images/image.jpg",
-    "/images/image.jpg",
-    "/images/image.jpg",
-    "/images/image.jpg",
+    "/Images/image.jpg",
+    "/Images/image.jpg",
+    "/Images/image.jpg",
+    "/Images/image.jpg",
   ]);
 
   const scrollRef = useRef<HTMLDivElement>(null);
